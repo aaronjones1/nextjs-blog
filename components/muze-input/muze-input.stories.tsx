@@ -1,5 +1,5 @@
 import React from 'react';
-import { ComponentMeta } from '@storybook/react';
+import { Meta } from '@storybook/react';
 import MuzeInput from './muze-input';
 
 export default {
@@ -9,6 +9,6 @@ export default {
   */
   title: 'MuzeInput',
   component: MuzeInput,
-} as ComponentMeta<typeof MuzeInput>;
+} as Meta<typeof MuzeInput>;
 
-export const Default = () => <MuzeInput />;
+export const Default = () => <MuzeInput label='First Name' helperMessage='Helper message' />;
