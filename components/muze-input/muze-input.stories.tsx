@@ -11,4 +11,4 @@ export default {
   component: MuzeInput,
 } as Meta<typeof MuzeInput>;
 
-export const Default = () => <MuzeInput label='First Name' helperMessage='Helper message' />;
+export const Default = () => <MuzeInput label='First Name' helperMessage='Helper message' placeholder='Enter your first name' />;
