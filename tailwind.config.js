@@ -9,6 +9,9 @@ module.exports = {
       boxShadow: {
         'convex': '6px 6px 12px #000000, -6px -6px 12px #323232;',
         'concave-sm': 'inset 2px 2px 4px #090909, inset -2px -2px 4px #323232;'
+      },
+      transitionProperty: {
+        'height': 'height'
       }
     },
   },

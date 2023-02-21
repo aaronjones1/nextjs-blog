@@ -20,12 +20,14 @@ type Story = StoryObj<typeof MuzeSelect>;
 export const Default: Story = {
   args: {
     label: 'Genre',
+    helperMessage: 'Helper message',
     items: [
       'Mystery',
       'Sci-Fi',
       'Romance',
       'Comedy',
       'Fantasy'
-    ]
+    ],
+    selectedItem: 'Sci-Fi'
   }
 };
