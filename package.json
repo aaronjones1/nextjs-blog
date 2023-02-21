@@ -21,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@headlessui/tailwindcss": "^0.1.2",
+    "@heroicons/react": "^2.0.15",
     "@storybook/addon-actions": "^7.0.0-beta.46",
     "@storybook/addon-essentials": "^7.0.0-beta.46",
     "@storybook/addon-interactions": "^7.0.0-beta.46",
