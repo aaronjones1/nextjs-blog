@@ -22,12 +22,36 @@ export const Default: Story = {
     label: 'Genre',
     helperMessage: 'Helper message',
     items: [
-      'Mystery',
-      'Sci-Fi',
-      'Romance',
-      'Comedy',
-      'Fantasy'
+      {
+        id: 0,
+        value: 'mystery',
+        displayValue: 'Mystery'
+      },
+      {
+        id: 1,
+        value: 'scifi',
+        displayValue: 'Sci-Fi'
+      },
+      {
+        id: 2,
+        value: 'romance',
+        displayValue: 'Romance'
+      },
+      {
+        id: 3,
+        value: 'comedy',
+        displayValue: 'Comedy'
+      },
+      {
+        id: 4,
+        value: 'fantasy',
+        displayValue: 'Fantasy'
+      },
     ],
-    selectedItem: 'Sci-Fi'
+    selectedItem: {
+      id: 1,
+      value: 'scifi',
+      displayValue: 'Sci-Fi'
+    }
   }
 };
